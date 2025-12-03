@@ -1,0 +1,12 @@
+parameters:
+    # Nível de verificação (0 = mínimo, 8 ou max = máximo)
+    level: max
+
+    # Pastas a serem analisadas
+    paths:
+        - src
+        - tests
+
+    # Opcional: ignorar erros em arquivos específicos
+    # ignoreErrors:
+    #     - '#Some specific error#'
