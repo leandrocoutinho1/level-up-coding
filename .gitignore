@@ -1,0 +1,36 @@
+# Composer
+/vendor/
+composer.lock
+
+# IDEs
+/.idea/
+/.vscode/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache do PHP
+*.log
+*.cache
+*.tmp
+*.swp
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/build/
+
+# Arquivos temporários
+*.bak
+*.old
+
+# Node/npm se usar ferramentas frontend
+/node_modules/
+/npm-debug.log
+
+# Outros
+.env
+.env.local
+.env.*.local
